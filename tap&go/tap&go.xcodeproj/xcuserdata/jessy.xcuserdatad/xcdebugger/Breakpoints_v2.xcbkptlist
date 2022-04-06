@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "13E74BDF-5899-46B7-A7AC-B38F08F21BC9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2B0CDB4-D3DA-4482-9DB4-B866691AE73D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/ViewModel/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "previews"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8946AEE-C4C9-4EF5-87FD-A92EB24C2901"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/Ui/Components/RestaurantDetailCard.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "RestaurantDetailCard"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "B8946AEE-C4C9-4EF5-87FD-A92EB24C2901 - 62e5861f2562e9cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of tap_go.RestaurantDetailCard.id : Swift.Int"
+                  moduleName = "tap&amp;go"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessy/Desktop/tap/tap&amp;go/Shared/Ui/Components/RestaurantDetailCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "B8946AEE-C4C9-4EF5-87FD-A92EB24C2901 - 73987f1f993aca97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tap_go.RestaurantDetailCard.id.getter : Swift.Int"
+                  moduleName = "tap&amp;go"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessy/Desktop/tap/tap&amp;go/Shared/Ui/Components/RestaurantDetailCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "B8946AEE-C4C9-4EF5-87FD-A92EB24C2901 - 997842d01bb21e9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tap_go.RestaurantDetailCard.id.setter : Swift.Int"
+                  moduleName = "tap&amp;go"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessy/Desktop/tap/tap&amp;go/Shared/Ui/Components/RestaurantDetailCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "B8946AEE-C4C9-4EF5-87FD-A92EB24C2901 - 4a5a6fca536cb79b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tap_go.RestaurantDetailCard.id.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "tap&amp;go"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessy/Desktop/tap/tap&amp;go/Shared/Ui/Components/RestaurantDetailCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  uuid = "B8946AEE-C4C9-4EF5-87FD-A92EB24C2901 - 3a4b56274c25ae2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tap_go.RestaurantDetailCard.$id.getter : SwiftUI.Binding&lt;Swift.Int&gt;"
+                  moduleName = "tap&amp;go"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jessy/Desktop/tap/tap&amp;go/Shared/Ui/Components/RestaurantDetailCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "153">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

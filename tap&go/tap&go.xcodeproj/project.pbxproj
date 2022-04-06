@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4914D51B27CA982C000B6E7D /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D51A27CA982C000B6E7D /* OnBoardingPage.swift */; };
+		4914D51E27CA9A64000B6E7D /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D51D27CA9A64000B6E7D /* LoginPage.swift */; };
+		4914D52327CA9C0C000B6E7D /* RadiusCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D52227CA9C0C000B6E7D /* RadiusCorners.swift */; };
+		4914D52627CAA8D0000B6E7D /* LoginPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D52527CAA8D0000B6E7D /* LoginPageModel.swift */; };
+		49197C1627CF72DA00805DCA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 49197C1527CF72DA00805DCA /* Alamofire */; };
+		49197C1927CF73B200805DCA /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 49197C1827CF73B200805DCA /* SwiftyJSON */; };
+		49197C1B27CFC38800805DCA /* RestaurantsPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49197C1A27CFC38800805DCA /* RestaurantsPageModel.swift */; };
+		4923C90927D21D7A00354A8E /* getScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923C90827D21D7A00354A8E /* getScreenSize.swift */; };
+		4923C90B27D21F2600354A8E /* InputFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923C90A27D21F2600354A8E /* InputFieldCustom.swift */; };
+		4923C90D27D247CD00354A8E /* LoginPageTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923C90C27D247CD00354A8E /* LoginPageTitle.swift */; };
+		4923C91127D2B34800354A8E /* OnBoardingTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923C91027D2B34800354A8E /* OnBoardingTitle.swift */; };
+		4923C91327D2B3FE00354A8E /* NavLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923C91227D2B3FE00354A8E /* NavLButton.swift */; };
+		4928233D27D2BDC3008ADCDA /* NavLContinueWithoutSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928233C27D2BDC3008ADCDA /* NavLContinueWithoutSignIn.swift */; };
+		4928234127D2C0F2008ADCDA /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928234027D2C0F2008ADCDA /* LoginForm.swift */; };
+		4928234327D2C59E008ADCDA /* ApiBasicResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928234227D2C59E008ADCDA /* ApiBasicResp.swift */; };
+		4928234527D2C80F008ADCDA /* RegisterTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928234427D2C80F008ADCDA /* RegisterTitle.swift */; };
+		4928234727D3ABE9008ADCDA /* RegisterForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928234627D3ABE9008ADCDA /* RegisterForm.swift */; };
+		4928234D27D3BE4D008ADCDA /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928234C27D3BE4D008ADCDA /* SearchBar.swift */; };
+		4928235127D3C8C4008ADCDA /* RestaurantCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928235027D3C8C4008ADCDA /* RestaurantCard.swift */; };
+		4928235327D3D583008ADCDA /* RestaurantPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928235227D3D583008ADCDA /* RestaurantPageModel.swift */; };
+		4928235527D3FF1D008ADCDA /* CreateRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4928235427D3FF1D008ADCDA /* CreateRestaurant.swift */; };
+		493B8C3727CA9179001E3435 /* tap_goApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B8C2727CA9177001E3435 /* tap_goApp.swift */; };
+		493B8C3827CA9179001E3435 /* tap_goApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B8C2727CA9177001E3435 /* tap_goApp.swift */; };
+		493B8C3927CA9179001E3435 /* Tap&Go.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B8C2827CA9177001E3435 /* Tap&Go.swift */; };
+		493B8C3B27CA9179001E3435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493B8C2927CA9179001E3435 /* Assets.xcassets */; };
+		493B8C3C27CA9179001E3435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493B8C2927CA9179001E3435 /* Assets.xcassets */; };
+		49471D2627CE1A7A0090C528 /* RestaurantListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49471D2527CE1A7A0090C528 /* RestaurantListPage.swift */; };
+		494D0B3E27D4D0060090D584 /* RestaurantPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D0B3D27D4D0060090D584 /* RestaurantPage.swift */; };
+		494D0B4027D4D2300090D584 /* RestaurantDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D0B3F27D4D2300090D584 /* RestaurantDetailCard.swift */; };
+		494D0B4227D4DEAD0090D584 /* MenusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D0B4127D4DEAD0090D584 /* MenusCard.swift */; };
+		494D0B4527D4E1270090D584 /* MenusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D0B4427D4E1270090D584 /* MenusModel.swift */; };
+		494D0B4927D4E3B00090D584 /* MenuPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D0B4827D4E3B00090D584 /* MenuPageModel.swift */; };
+		9AA05E4B27CCDD3400B63C41 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA05E4A27CCDD3400B63C41 /* RegisterPage.swift */; };
+		9AA05E4D27CCE01500B63C41 /* RegisterPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA05E4C27CCE01500B63C41 /* RegisterPageModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4914D51A27CA982C000B6E7D /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
+		4914D51C27CA99D0000B6E7D /* tap-go--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "tap-go--iOS--Info.plist"; sourceTree = "<group>"; };
+		4914D51D27CA9A64000B6E7D /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		4914D52227CA9C0C000B6E7D /* RadiusCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusCorners.swift; sourceTree = "<group>"; };
+		4914D52527CAA8D0000B6E7D /* LoginPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageModel.swift; sourceTree = "<group>"; };
+		49197C1A27CFC38800805DCA /* RestaurantsPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsPageModel.swift; sourceTree = "<group>"; };
+		4923C90827D21D7A00354A8E /* getScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getScreenSize.swift; sourceTree = "<group>"; };
+		4923C90A27D21F2600354A8E /* InputFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldCustom.swift; sourceTree = "<group>"; };
+		4923C90C27D247CD00354A8E /* LoginPageTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageTitle.swift; sourceTree = "<group>"; };
+		4923C91027D2B34800354A8E /* OnBoardingTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingTitle.swift; sourceTree = "<group>"; };
+		4923C91227D2B3FE00354A8E /* NavLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLButton.swift; sourceTree = "<group>"; };
+		4928233C27D2BDC3008ADCDA /* NavLContinueWithoutSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLContinueWithoutSignIn.swift; sourceTree = "<group>"; };
+		4928234027D2C0F2008ADCDA /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		4928234227D2C59E008ADCDA /* ApiBasicResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiBasicResp.swift; sourceTree = "<group>"; };
+		4928234427D2C80F008ADCDA /* RegisterTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTitle.swift; sourceTree = "<group>"; };
+		4928234627D3ABE9008ADCDA /* RegisterForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterForm.swift; sourceTree = "<group>"; };
+		4928234C27D3BE4D008ADCDA /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		4928235027D3C8C4008ADCDA /* RestaurantCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCard.swift; sourceTree = "<group>"; };
+		4928235227D3D583008ADCDA /* RestaurantPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPageModel.swift; sourceTree = "<group>"; };
+		4928235427D3FF1D008ADCDA /* CreateRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRestaurant.swift; sourceTree = "<group>"; };
+		493B8C2727CA9177001E3435 /* tap_goApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tap_goApp.swift; sourceTree = "<group>"; };
+		493B8C2827CA9177001E3435 /* Tap&Go.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tap&Go.swift"; sourceTree = "<group>"; };
+		493B8C2927CA9179001E3435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		493B8C2E27CA9179001E3435 /* tap&go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tap&go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		493B8C3427CA9179001E3435 /* tap&go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tap&go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		493B8C3627CA9179001E3435 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		49471D2527CE1A7A0090C528 /* RestaurantListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListPage.swift; sourceTree = "<group>"; };
+		494D0B3D27D4D0060090D584 /* RestaurantPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPage.swift; sourceTree = "<group>"; };
+		494D0B3F27D4D2300090D584 /* RestaurantDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailCard.swift; sourceTree = "<group>"; };
+		494D0B4127D4DEAD0090D584 /* MenusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusCard.swift; sourceTree = "<group>"; };
+		494D0B4427D4E1270090D584 /* MenusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusModel.swift; sourceTree = "<group>"; };
+		494D0B4827D4E3B00090D584 /* MenuPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPageModel.swift; sourceTree = "<group>"; };
+		9AA05E4A27CCDD3400B63C41 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		9AA05E4C27CCE01500B63C41 /* RegisterPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		493B8C2B27CA9179001E3435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49197C1927CF73B200805DCA /* SwiftyJSON in Frameworks */,
+				49197C1627CF72DA00805DCA /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493B8C3127CA9179001E3435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4914D51927CA97F9000B6E7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				493B8C2827CA9177001E3435 /* Tap&Go.swift */,
+				4914D51A27CA982C000B6E7D /* OnBoardingPage.swift */,
+				4914D51D27CA9A64000B6E7D /* LoginPage.swift */,
+				9AA05E4A27CCDD3400B63C41 /* RegisterPage.swift */,
+				49471D2527CE1A7A0090C528 /* RestaurantListPage.swift */,
+				4928235427D3FF1D008ADCDA /* CreateRestaurant.swift */,
+				494D0B3D27D4D0060090D584 /* RestaurantPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4914D52427CAA8B7000B6E7D /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4914D52527CAA8D0000B6E7D /* LoginPageModel.swift */,
+				9AA05E4C27CCE01500B63C41 /* RegisterPageModel.swift */,
+				4928235227D3D583008ADCDA /* RestaurantPageModel.swift */,
+				494D0B4827D4E3B00090D584 /* MenuPageModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		4923C90527D21CA400354A8E /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				4914D51927CA97F9000B6E7D /* Views */,
+				4923C90727D21D1E00354A8E /* Extensions */,
+				4923C90627D21CAF00354A8E /* Components */,
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		4923C90627D21CAF00354A8E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4914D52227CA9C0C000B6E7D /* RadiusCorners.swift */,
+				4923C90A27D21F2600354A8E /* InputFieldCustom.swift */,
+				4923C90C27D247CD00354A8E /* LoginPageTitle.swift */,
+				4923C91027D2B34800354A8E /* OnBoardingTitle.swift */,
+				4923C91227D2B3FE00354A8E /* NavLButton.swift */,
+				4928233C27D2BDC3008ADCDA /* NavLContinueWithoutSignIn.swift */,
+				4928234027D2C0F2008ADCDA /* LoginForm.swift */,
+				4928234427D2C80F008ADCDA /* RegisterTitle.swift */,
+				4928234627D3ABE9008ADCDA /* RegisterForm.swift */,
+				4928234C27D3BE4D008ADCDA /* SearchBar.swift */,
+				4928235027D3C8C4008ADCDA /* RestaurantCard.swift */,
+				494D0B3F27D4D2300090D584 /* RestaurantDetailCard.swift */,
+				494D0B4127D4DEAD0090D584 /* MenusCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4923C90727D21D1E00354A8E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4923C90827D21D7A00354A8E /* getScreenSize.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4928233E27D2BE9F008ADCDA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4928233F27D2BEB9008ADCDA /* Models */,
+				4914D52427CAA8B7000B6E7D /* viewModels */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4928233F27D2BEB9008ADCDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49197C1A27CFC38800805DCA /* RestaurantsPageModel.swift */,
+				4928234227D2C59E008ADCDA /* ApiBasicResp.swift */,
+				494D0B4427D4E1270090D584 /* MenusModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		493B8C2127CA9177001E3435 = {
+			isa = PBXGroup;
+			children = (
+				4914D51C27CA99D0000B6E7D /* tap-go--iOS--Info.plist */,
+				493B8C2627CA9177001E3435 /* Shared */,
+				493B8C3527CA9179001E3435 /* macOS */,
+				493B8C2F27CA9179001E3435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		493B8C2627CA9177001E3435 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4923C90527D21CA400354A8E /* Ui */,
+				4928233E27D2BE9F008ADCDA /* Data */,
+				493B8C2727CA9177001E3435 /* tap_goApp.swift */,
+				493B8C2927CA9179001E3435 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		493B8C2F27CA9179001E3435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				493B8C2E27CA9179001E3435 /* tap&go.app */,
+				493B8C3427CA9179001E3435 /* tap&go.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		493B8C3527CA9179001E3435 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				493B8C3627CA9179001E3435 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		493B8C2D27CA9179001E3435 /* tap&go (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493B8C3F27CA9179001E3435 /* Build configuration list for PBXNativeTarget "tap&go (iOS)" */;
+			buildPhases = (
+				493B8C2A27CA9179001E3435 /* Sources */,
+				493B8C2B27CA9179001E3435 /* Frameworks */,
+				493B8C2C27CA9179001E3435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tap&go (iOS)";
+			packageProductDependencies = (
+				49197C1527CF72DA00805DCA /* Alamofire */,
+				49197C1827CF73B200805DCA /* SwiftyJSON */,
+			);
+			productName = "tap&go (iOS)";
+			productReference = 493B8C2E27CA9179001E3435 /* tap&go.app */;
+			productType = "com.apple.product-type.application";
+		};
+		493B8C3327CA9179001E3435 /* tap&go (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493B8C4227CA9179001E3435 /* Build configuration list for PBXNativeTarget "tap&go (macOS)" */;
+			buildPhases = (
+				493B8C3027CA9179001E3435 /* Sources */,
+				493B8C3127CA9179001E3435 /* Frameworks */,
+				493B8C3227CA9179001E3435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tap&go (macOS)";
+			productName = "tap&go (macOS)";
+			productReference = 493B8C3427CA9179001E3435 /* tap&go.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		493B8C2227CA9177001E3435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					493B8C2D27CA9179001E3435 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					493B8C3327CA9179001E3435 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 493B8C2527CA9177001E3435 /* Build configuration list for PBXProject "tap&go" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 493B8C2127CA9177001E3435;
+			packageReferences = (
+				49197C1427CF72DA00805DCA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				49197C1727CF73B200805DCA /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 493B8C2F27CA9179001E3435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				493B8C2D27CA9179001E3435 /* tap&go (iOS) */,
+				493B8C3327CA9179001E3435 /* tap&go (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		493B8C2C27CA9179001E3435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493B8C3B27CA9179001E3435 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493B8C3227CA9179001E3435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493B8C3C27CA9179001E3435 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		493B8C2A27CA9179001E3435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4928235127D3C8C4008ADCDA /* RestaurantCard.swift in Sources */,
+				4914D52327CA9C0C000B6E7D /* RadiusCorners.swift in Sources */,
+				4923C90D27D247CD00354A8E /* LoginPageTitle.swift in Sources */,
+				494D0B3E27D4D0060090D584 /* RestaurantPage.swift in Sources */,
+				494D0B4227D4DEAD0090D584 /* MenusCard.swift in Sources */,
+				4928234527D2C80F008ADCDA /* RegisterTitle.swift in Sources */,
+				494D0B4027D4D2300090D584 /* RestaurantDetailCard.swift in Sources */,
+				49471D2627CE1A7A0090C528 /* RestaurantListPage.swift in Sources */,
+				4914D51E27CA9A64000B6E7D /* LoginPage.swift in Sources */,
+				4928235527D3FF1D008ADCDA /* CreateRestaurant.swift in Sources */,
+				4923C90B27D21F2600354A8E /* InputFieldCustom.swift in Sources */,
+				4923C91127D2B34800354A8E /* OnBoardingTitle.swift in Sources */,
+				494D0B4527D4E1270090D584 /* MenusModel.swift in Sources */,
+				4928235327D3D583008ADCDA /* RestaurantPageModel.swift in Sources */,
+				4928234127D2C0F2008ADCDA /* LoginForm.swift in Sources */,
+				494D0B4927D4E3B00090D584 /* MenuPageModel.swift in Sources */,
+				4914D52627CAA8D0000B6E7D /* LoginPageModel.swift in Sources */,
+				49197C1B27CFC38800805DCA /* RestaurantsPageModel.swift in Sources */,
+				4928234327D2C59E008ADCDA /* ApiBasicResp.swift in Sources */,
+				4923C90927D21D7A00354A8E /* getScreenSize.swift in Sources */,
+				9AA05E4D27CCE01500B63C41 /* RegisterPageModel.swift in Sources */,
+				4923C91327D2B3FE00354A8E /* NavLButton.swift in Sources */,
+				4928234D27D3BE4D008ADCDA /* SearchBar.swift in Sources */,
+				493B8C3927CA9179001E3435 /* Tap&Go.swift in Sources */,
+				4928233D27D2BDC3008ADCDA /* NavLContinueWithoutSignIn.swift in Sources */,
+				4914D51B27CA982C000B6E7D /* OnBoardingPage.swift in Sources */,
+				493B8C3727CA9179001E3435 /* tap_goApp.swift in Sources */,
+				4928234727D3ABE9008ADCDA /* RegisterForm.swift in Sources */,
+				9AA05E4B27CCDD3400B63C41 /* RegisterPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493B8C3027CA9179001E3435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493B8C3827CA9179001E3435 /* tap_goApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		493B8C3D27CA9179001E3435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		493B8C3E27CA9179001E3435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		493B8C4027CA9179001E3435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6C82S78N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tap-go--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taptapz;
+				PRODUCT_NAME = "tap&go";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		493B8C4127CA9179001E3435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6C82S78N4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tap-go--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taptapz;
+				PRODUCT_NAME = "tap&go";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		493B8C4327CA9179001E3435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25ZCQ8N9H4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tap-go.tap-go";
+				PRODUCT_NAME = "tap&go";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		493B8C4427CA9179001E3435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25ZCQ8N9H4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tap-go.tap-go";
+				PRODUCT_NAME = "tap&go";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		493B8C2527CA9177001E3435 /* Build configuration list for PBXProject "tap&go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493B8C3D27CA9179001E3435 /* Debug */,
+				493B8C3E27CA9179001E3435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493B8C3F27CA9179001E3435 /* Build configuration list for PBXNativeTarget "tap&go (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493B8C4027CA9179001E3435 /* Debug */,
+				493B8C4127CA9179001E3435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493B8C4227CA9179001E3435 /* Build configuration list for PBXNativeTarget "tap&go (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493B8C4327CA9179001E3435 /* Debug */,
+				493B8C4427CA9179001E3435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		49197C1427CF72DA00805DCA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		49197C1727CF73B200805DCA /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		49197C1527CF72DA00805DCA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49197C1427CF72DA00805DCA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		49197C1827CF73B200805DCA /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 49197C1727CF73B200805DCA /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 493B8C2227CA9177001E3435 /* Project object */;
+}
